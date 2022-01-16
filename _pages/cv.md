@@ -2,5 +2,5 @@
 layout: page
 title: vitae
 nav: true
-permalink: /assets/pdf/Masters_Thesis_Lucas_Lange.pdf
+permalink: /assets/pdf/Lucas_Lange_CV_2021_ger.pdf
 ---
