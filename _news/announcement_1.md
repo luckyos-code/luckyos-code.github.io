@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-01-22 16:50:00+0100
 inline: true
 ---
 
-A simple inline announcement.
+We are live! You will find all important updates in this news feed.
