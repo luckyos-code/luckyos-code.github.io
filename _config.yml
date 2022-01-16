@@ -202,8 +202,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Lange
+  first_name: [Lucas]
 
   style: apa
   locale: en
