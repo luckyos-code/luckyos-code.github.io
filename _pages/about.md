@@ -8,7 +8,7 @@ subtitle: >
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: lucas_lange.jpg
   address: <p>Email&#58;&nbsp;lucas.lange@arcor.de</p>
     #<p>555 your office number</p>
     #<p>123 your address street</p>
