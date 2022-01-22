@@ -22,12 +22,10 @@ A. Meszaros (Bachelor)
 
 <div class="publications">
   <h2 class="year">2022</h2>
-
-<b>Application and Evaluation of Differential Privacy in Health Data Classification Tasks</b><br/>
-M. Krüger (Bachelor)<br/><br/>
-
-<b>Application and Evaluation of Differential Privacy in Health Data Classification Tasks</b>
-<br/>
-M. Krüger (Bachelor)
-
+    <div><b>Application and Evaluation of Differential Privacy in Health Data Classification Tasks</b><br/>
+    M. Krüger (Bachelor)</div>
+    <br/>
+    <div><b>Application and Evaluation of Differential Privacy in Health Data Classification Tasks</b>
+    <br/>
+    M. Krüger (Bachelor)</div>
 </div>
