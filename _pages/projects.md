@@ -8,22 +8,6 @@ nav: true
 
 <div class="publications"><ol class="bibliography"><li>
 	<h2 class="year">2022</h2>	
-		<!-- AutoSlides Web -->
-		<div>
-			<b>AutoSlides Web</b> (work in progress)<br/>
-			Integration of the AutoSlides project into a website for automatic slideshow creation.
-			<!-- Links/Buttons -->
-			<div class="links">
-				<a class="abstract btn btn-sm z-depth-0 waves-effect waves-light" role="button">Info</a>
-				<!--<a href="" class="btn btn-sm z-depth-0 waves-effect waves-light" role="button" target="_blank" rel="noopener noreferrer">Code</a>-->
-				<!--<a href="" class="btn btn-sm z-depth-0 waves-effect waves-light" role="button" target="_blank" rel="noopener noreferrer">Demo</a>-->
-			</div>
-			<!-- Hidden abstract block -->
-			<div class="abstract hidden">
-				<p>AutoSlides is a tool that will automatically create Powerpoint based slideshows, based on chosen topics. It uses several online resources, like DbPedia, Wikipedia and Flickr in order to search for relevant content and to produce meaningful slideshows.</p>
-			</div>
-		</div>
-		<br/>
 		<!-- DP‑X‑COVID -->
 		<div>
 			<b>DP‑X‑COVID</b><br/>
@@ -107,6 +91,7 @@ nav: true
 				<a class="abstract btn btn-sm z-depth-0 waves-effect waves-light" role="button">Info</a>
 				<a href="https://github.com/AKSW/Auto-Slides" class="btn btn-sm z-depth-0 waves-effect waves-light" role="button" target="_blank" rel="noopener noreferrer">Code</a>
 				<a href="https://aksw.org/Projects/AutoSlides.html" class="btn btn-sm z-depth-0 waves-effect waves-light" role="button" target="_blank" rel="noopener noreferrer">Website</a>
+				<a href="/assets/pdf/Munich.pdf" class="btn btn-sm z-depth-0 waves-effect waves-light" role="button" target="_blank" rel="noopener noreferrer">Demo</a>
 			</div>
 			<!-- Hidden abstract block -->
 			<div class="abstract hidden">
