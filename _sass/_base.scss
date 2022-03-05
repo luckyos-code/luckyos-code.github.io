@@ -24,7 +24,7 @@ a, table.table a {
 }
 
 figure, img {
-  max-width: 90vw;
+  max-width: 200vw;
 }
 
 blockquote {
@@ -75,7 +75,10 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 40%; // was 30%
+    img { // added to reduce img size from 100%
+    width: 75%;
+    }
     .address {
       p { display: block; }
     }
