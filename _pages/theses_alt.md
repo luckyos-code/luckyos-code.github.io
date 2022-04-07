@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /theses/
+permalink:
 title: theses
 description: Overview of my porposed thesis topics.
 nav: false
