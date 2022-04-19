@@ -9,3 +9,7 @@ nav: true
 ## open theses
 
 Feel free to contact me for more info or topic proposals/requests.
+
+* <b>Colorizing Old Photos of Leipzig Using Deep Learning (B.Sc.)</b><br/>
+* <b>Data Augmentation for COVID-19 Chest X-Rays Using Generative Adversarial Networks (B.Sc.)</b><br/>
+* <b>User-Level Membership Inference Attacks Against Privacy-Preserving Recommender Systems (M.Sc.)</b><br/>
