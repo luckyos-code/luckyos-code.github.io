@@ -2,22 +2,17 @@
 layout: page
 permalink: /theses/
 title: theses
-description: Overview of my porposed thesis topics.
+description: Feel free to contact me for more info or topic proposals/requests.
 nav: true
 ---
 
 ## open theses
 
-Feel free to contact me for more info or topic proposals/requests.
-
-* <b>Data Augmentation for COVID-19 Chest X-Rays Using Generative Adversarial Networks (B.Sc./M.Sc.)</b><br/>
-
-* <b>User-Level Membership Inference Attacks Against Privacy-Preserving Recommender Systems (M.Sc.)</b><br/>
-
-* <b>Privacy-Preserving Sentiment Analysis on Twitter (M.Sc.)</b><br/>
+* <b>Privacy-Preserving Sentiment Analysis on Twitter</b><br/> Bachelor/Master
+* <b>Privacy-Preserving Smartwatch Health Data Generation Using GANs</b><br/> Bachelor/Master
+* <b>User-Level Membership Inference Attacks Against Privacy-Preserving Recommender Systems</b><br/> Master
 
 ## ongoing theses
 
-* <b>Colorizing Old Photos of Leipzig Using Deep Learning (B.Sc.)</b><br/> Daniel Grohmann
-
-* <b>Bee Hive Monitoring Using Deep Learning (B.Sc.)</b><br/> Noah Rasp
+* <b>Bee Health Identification Using CNNs</b><br/> Noah Rasp, Bachelor
+* <b>Colorizing Old Photos of Leipzig Using Deep Learning</b><br/> Daniel Grohmann, Bachelor
