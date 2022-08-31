@@ -3,8 +3,8 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  Research Assistant / PhD Candidate @ Leipzig University.<br/>
-  Topic: Privacy-Preserving Data Analysis (Machine Learning).
+  Research Assistant / PhD Student @ Leipzig University <br/>
+  Topic: Privacy-Preserving Data Analysis (Machine Learning)
 
 profile:
   align: right
