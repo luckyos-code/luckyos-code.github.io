@@ -8,11 +8,12 @@ nav: true
 
 ## open theses
 
-* <b>Privacy-Preserving Sentiment Analysis on Twitter</b><br/> Bachelor/Master
-* <b>Privacy-Preserving Smartwatch Health Data Generation Using GANs</b><br/> Bachelor/Master
-* <b>User-Level Membership Inference Attacks Against Privacy-Preserving Recommender Systems</b><br/> Master
+* <a href="https://dbs.uni-leipzig.de/en/study/theses/aktuelle_themen" target="_blank">Link</a>
 
 ## ongoing theses
 
-* <b>Bee Health Identification Using CNNs</b><br/> Noah Rasp, Bachelor
-* <b>Colorizing Old Photos of Leipzig Using Deep Learning</b><br/> Daniel Grohmann, Bachelor
+* <a href="https://dbs.uni-leipzig.de/en/theses" target="_blank">Link</a>
+
+## past theses
+
+* <b>A Study on the Impact of Class Imbalance on CNNs for Bee Health Detection</b><br/> Noah Rasp, Bachelor 2022
