@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  Research Assistant / PhD Student @ Leipzig University <br/>
+  Researcher / PhD Student @ Leipzig University <br/>
   Topic: Privacy-Preserving Data Analysis (Machine Learning)
 
 profile:
