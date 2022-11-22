@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-01-16 16:56:00+0100
+date: 2022-11-22 14:23:00+0100
 inline: true
 ---
 
-I just recently handed in my master's thesis. You can check it out, <a href="assets/pdf/Masters_Thesis_Lucas_Lange.pdf" target="_blank">here</a>.
+Preprint for "Privacy in Practice: Private COVID-19 Detection in X-Ray Images" now on <a href="https://arxiv.org/abs/2211.11434" target="_blank">arXiv</a>.

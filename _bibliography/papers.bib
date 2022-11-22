@@ -1,37 +1,61 @@
----
----
+%% add: code, pdf, bitex_show, selected
+%% remove: file
 
-@article{master:2022,
-  author =     {Lucas Lange},
-  journal =    {Master's Thesis (Preprint)},
-  numpages =   83,
-  month =      jan,
-  year =       2022,
-  title =      {{Privacy-Preserving Detection of COVID-19 in X-Ray Images}},
-  pdf =        {Masters_Thesis_Lucas_Lange.pdf},
-  code=        {https://github.com/luckyos-code/DP-X-COVID},
-  abstract= {Chest X-rays enable a fast and safe diagnosis of COVID-19 in patients. Applying Machine Learning (ML) methods can support medical professionals by classifying large numbers of images. However, the amount of data needed for training such classifiers poses problems due to clinical data privacy regulations, which present strict limitations on data sharing between hospitals. Specifically, the models resulting from ML are vulnerable to attacks and can compromise data integrity by leaking details about their training data. Privacy-Preserving ML (PPML) offers methods to create private models that satisfy Differential Privacy (DP), enabling the development of medical applications while maintaining patient privacy.
-  <br/>
-  This work aims at investigating the privacy-preserving detection of COVID-19 in X-ray images. The PPML training methods DP-SGD and PATE are matched against non-private training. The private models should mitigate the data leakage threats posed by Membership Inference Attacks (MIAs). However, the inclusion of DP showed no improvements in MIA defense on the COVID-19 detection task. Instead, the non-private models presented the same repelling properties as the private models. Thus, if only the defense against MIAs is of concern, the non-private approach achieving 97.6% classification accuracy is the best choice. Private DP-SGD training for $\varepsilon = 1$ is a more sensible alternative when a theoretical privacy guarantee is needed. The best DP-SGD model reaches 74.1% accuracy. Even though the accuracy-privacy trade-off of 23.5% is significant, the private model performs 0.3% better than related work and keeps much tighter privacy guarantees. Ultimately, the conflicting findings from the additional experiments on the MNIST database, where DP significantly increased MIA defense, indicate that PPML (or DP-SGD) is heavily task-dependent. Thus, research on one dataset might not carry over to others.},
-  selected={true}
+@misc{langePrivacyPracticePrivate2022,
+  title = {Privacy in {{Practice}}: {{Private COVID-19 Detection}} in {{X-Ray Images}}},
+  author = {Lange, Lucas and Schneider, Maja and Rahm, Erhard},
+  year = {2022},
+  month = nov,
+  number = {arXiv:2211.11434},
+  eprint = {2211.11434},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.2211.11434},
+  abstract = {Machine learning (ML) can help fight the COVID-19 pandemic by enabling rapid screening of large volumes of chest X-ray images. To perform such data analysis while maintaining patient privacy, we create ML models that satisfy Differential Privacy (DP). Previous works exploring private COVID-19 ML models are in part based on small or skewed datasets, are lacking in their privacy guarantees, and do not investigate practical privacy. In this work, we therefore suggest several improvements to address these open gaps. We account for inherent class imbalances in the data and evaluate the utility-privacy trade-off more extensively and over stricter privacy budgets than in previous work. Our evaluation is supported by empirically estimating practical privacy leakage through actual attacks. Based on theory, the introduced DP should help limit and mitigate information leakage threats posed by black-box Membership Inference Attacks (MIAs). Our practical privacy analysis is the first to test this hypothesis on the COVID-19 detection task. In addition, we also re-examine the evaluation on the MNIST database. Our results indicate that based on the task-dependent threat from MIAs, DP does not always improve practical privacy, which we show on the COVID-19 task. The results further suggest that with increasing DP guarantees, empirical privacy leakage reaches an early plateau and DP therefore appears to have a limited impact on MIA defense. Our findings identify possibilities for better utility-privacy trade-offs, and we thus believe that empirical attack-specific privacy estimation can play a vital role in tuning for practical privacy.},
+  archiveprefix = {arXiv},
+  code = {https://github.com/luckyos-code/mia-covid},
+  pdf = {https://arxiv.org/pdf/2211.11434.pdf},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Cryptography and Security,Computer Science - Machine Learning},
+  url = {http://arxiv.org/abs/2211.11434},
+  bibtex_show={true},
+  selected={true},
 }
 
-@InProceedings{sentarg:2020,
-  author =     {Staudte, Christian and Lange, Lucas},
-  booktitle =  {CLEF 2020 Working Notes},
-  series =     {CEUR Workshop Proceedings},
-  volume =     2696,
-  numpages =   6,
-  month =      sep,
-  year =       2020,
-  title =      {{SentArg: A Hybrid Doc2Vec/DPH Model with Sentiment Analysis Refinement}},
-  titleaddon = {{Notebook for the Touch{\'e} Lab on Argument Retrieval at CLEF 2020}},
-  url =        {http://ceur-ws.org/Vol-2696/},
-  pdf =        {http://ceur-ws.org/Vol-2696/paper_191.pdf},
-  code=        {https://github.com/luckyos-code/ArgU},
-  abstract= {In this work we explore the yet untested inclusion of sentiment analysis in the argument ranking process. By utilizing a word embedding model we create document embeddings for all queries and arguments. These are compared with each other to calculate top-N argument context scores for each query. We also calculate top-N DPH scores with the Terrier Framework. This way, each query receives two lists of top-N arguments. Afterwards we form an intersection of both argument lists and sort the result by the DPH scores. To further increase the ranking quality, we sort the final arguments of each query by sentiment values. Our findings ultimately imply that rewarding neutral sentiments can decrease the quality of the retrieval outcome.},
+@mastersthesis{langePrivacyPreservingDetectionCOVID192022,
+  title = {Privacy-{{Preserving Detection}} of {{COVID-19}} in {{X-Ray Images}}},
+  author = {Lange, Lucas},
+  year = {2022},
+  month = jan,
+  abstract = {Chest X-rays enable a fast and safe diagnosis of COVID-19 in patients. Applying Machine Learning (ML) methods can support medical professionals by classifying large numbers of images. However, the amount of data needed for training such classifiers poses problems due to clinical data privacy regulations, which present strict limitations on data sharing between hospitals. Specifically, the models resulting from ML are vulnerable to attacks and can compromise data integrity by leaking details about their training data. Privacy-Preserving ML (PPML) offers methods to create private models that satisfy Differential Privacy (DP), enabling the development of medical applications while maintaining patient privacy.
+
+  This work aims at investigating the privacy-preserving detection of COVID-19 in X-ray images. The PPML training methods DP-SGD and PATE are matched against non-private training. The private models should mitigate the data leakage threats posed by Membership Inference Attacks (MIAs). However, the inclusion of DP showed no improvements in MIA defense on the COVID-19 detection task. Instead, the non-private models presented the same repelling properties as the private models. Thus, if only the defense against MIAs is of concern, the non-private approach achieving 97.6\% classification accuracy is the best choice. Private DP-SGD training for \textbackslash varepsilon = 1 is a more sensible alternative when a theoretical privacy guarantee is needed. The best DP-SGD model reaches 74.1\% accuracy. Even though the accuracy-privacy trade-off of 23.5\% is significant, the private model performs 0.3\% better than related work and keeps much tighter privacy guarantees. Ultimately, the conflicting findings from the additional experiments on the MNIST database, where DP significantly increased MIA defense, indicate that PPML (or DP-SGD) is heavily task-dependent. Thus, research on one dataset might not carry over to others.},
+  code = {https://github.com/luckyos-code/DP-X-COVID},
+  langid = {english},
+  pdf = {https://dbs.uni-leipzig.de/file/Masters_Thesis_Lucas_Lange.pdf},
+  school = {Leipzig University},
   bibtex_show={true},
-  selected={true}
+}
+
+@inproceedings{staudteSentArgHybridDoc2Vec2020,
+  title = {{{SentArg}}: {{A Hybrid Doc2Vec}}/{{DPH Model}} with {{Sentiment Analysis Refinement}}},
+  booktitle = {{{CLEF}} 2020 {{Working Notes}}},
+  author = {Staudte, Christian and Lange, Lucas},
+  editor = {Cappellato, Linda and Eickhoff, Carsten and Ferro, Nicola and N{\'e}v{\'e}ol, Aur{\'e}lie},
+  year = {2020},
+  month = sep,
+  series = {{{CEUR Workshop Proceedings}}},
+  volume = {2696},
+  publisher = {{CEUR}},
+  address = {{Thessaloniki, Greece}},
+  issn = {1613-0073},
+  abstract = {In this work we explore the yet untested inclusion of sentiment analysis in the argument ranking process. By utilizing a word embedding model we create document embeddings for all queries and arguments. These are compared with each other to calculate top-N argument context scores for each query. We also calculate top-N DPH scores with the Terrier Framework. This way, each query receives two lists of top-N arguments. Afterwards we form an intersection of both argument lists and sort the result by the DPH scores. To further increase the ranking quality, we sort the final arguments of each query by sentiment values. Our findings ultimately imply that rewarding neutral sentiments can decrease the quality of the retrieval outcome.},
+  code = {https://github.com/luckyos-code/ArgU},
+  langid = {english},
+  pdf = {https://ceur-ws.org/Vol-2696/paper\_191.pdf},
+  url = {http://ceur-ws.org/Vol-2696/#paper_191},
+  bibtex_show={true},
+  selected={true},
 }
 
 ---
