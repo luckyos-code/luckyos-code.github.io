@@ -23,6 +23,6 @@ social: false  # includes social icons at the bottom of the page
 
 I am a computer scientist passionate about artificial intelligence, machine learning, and privacy.
 
-On this website, I want to summarize my works and experiences.
+On this website, I want to summarize my works and experiences. Also see my database group <a href="https://dbs.uni-leipzig.de/en/person/lucas_lange" target="_blank">page</a>.
 
 For inqueries or questions please contact me using the given addresses or one of the linked platforms at the top.

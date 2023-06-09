@@ -16,4 +16,8 @@ nav: true
 
 ## past theses
 
+* <a href="https://dbs.uni-leipzig.de/en/person/lucas_lange" target="_blank">Link</a>
+
+{% comment %} 
 * <b>A Study on the Impact of Class Imbalance on CNNs for Bee Health Detection</b><br/> Noah Rasp, Bachelor 2022
+{% endcomment %}
