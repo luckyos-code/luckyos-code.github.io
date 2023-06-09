@@ -3,7 +3,7 @@ layout: page
 permalink: /projects/
 title: projects
 description: Here I showcase some of my projects.
-nav: true
+nav: false
 ---
 
 <div class="publications"><ol class="bibliography"><li>
