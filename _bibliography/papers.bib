@@ -1,15 +1,81 @@
 %% add: code, pdf, bitex_show, selected
 %% remove: file
 
-@inproceedings{placeholder2,
-  title = {Privacy-Preserving Stress Detection Using Smartwatch Health Data},
+@misc{langeGeneratingSyntheticHealth2024,
+  title = {Generating {{Synthetic Health Sensor Data}} for {{Privacy-Preserving Wearable Stress Detection}}},
+  author = {Lange, Lucas and Wenzlitschke, Nils and Rahm, Erhard},
+  year = {2024},
+  month = jan,
+  number = {arXiv:2401.13327},
+  eprint = {2401.13327},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  url = {http://arxiv.org/abs/2401.13327},
+  urldate = {2024-01-25},
+  abstract = {Smartwatch health sensor data is increasingly utilized in smart health applications and patient monitoring, including stress detection. However, such medical data often comprises sensitive personal information and is resource-intensive to acquire for research purposes. In response to this challenge, we introduce the privacy-aware synthetization of multi-sensor smartwatch health readings related to moments of stress. Our method involves the generation of synthetic sequence data through Generative Adversarial Networks (GANs), coupled with the implementation of Differential Privacy (DP) safeguards for protecting patient information during model training. To ensure the integrity of our synthetic data, we employ a range of quality assessments and monitor the plausibility between synthetic and original data. To test the usefulness, we create private machine learning models on a commonly used, albeit small, stress detection dataset, exploring strategies for enhancing the existing data foundation with our synthetic data. Through our GAN-based augmentation methods, we observe improvements in model performance, both in non-private (0.45\% F1) and private (11.90-15.48\% F1) training scenarios. We underline the potential of differentially private synthetic data in optimizing utility-privacy trade-offs, especially with limited availability of real training samples.},
+  archiveprefix = {arxiv},
+  code = {https://github.com/luckyos-code/Privacy-Preserving-Smartwatch-Health-Data-Generation-Using-DP-GANs},
+  pdf = {https://arxiv.org/pdf/2401.13327.pdf},
+  keywords = {Computer Science - Cryptography and Security,Computer Science - Machine Learning},
+  bibtexshow={true},
+  selected={true},
+}
+
+
+@misc{langePrivacyRiskExploiting2023,
+  title = {Privacy at {{Risk}}: {{Exploiting Similarities}} in {{Health Data}} for {{Identity Inference}}},
+  shorttitle = {Privacy at {{Risk}}},
+  author = {Lange, Lucas and Schreieder, Tobias and Christen, Victor and Rahm, Erhard},
+  year = {2023},
+  month = aug,
+  number = {arXiv:2308.08310},
+  eprint = {2308.08310},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.2308.08310},
+  url = {http://arxiv.org/abs/2308.08310},
+  urldate = {2023-10-17},
+  abstract = {Smartwatches enable the efficient collection of health data that can be used for research and comprehensive analysis to improve the health of individuals. In addition to the analysis capabilities, ensuring privacy when handling health data is a critical concern as the collection and analysis of such data become pervasive. Since health data contains sensitive information, it should be handled with responsibility and is therefore often treated anonymously. However, also the data itself can be exploited to reveal information and break anonymity. We propose a novel similarity-based re-identification attack on time-series health data and thereby unveil a significant vulnerability. Despite privacy measures that remove identifying information, our attack demonstrates that a brief amount of various sensor data from a target individual is adequate to possibly identify them within a database of other samples, solely based on sensor-level similarities. In our example scenario, where data owners leverage health data from smartwatches, findings show that we are able to correctly link the target data in two out of three cases. User privacy is thus already inherently threatened by the data itself and even when removing personal information.},
+  archiveprefix = {arxiv},
+  code = {https://github.com/tobiasschreieder/smartwatch-dtw-attack},
+  pdf = {https://arxiv.org/pdf/2308.08310.pdf},
+  keywords = {Computer Science - Cryptography and Security},
+  bibtexshow={true},
+  selected={true},
+}
+
+
+@inproceedings{langePrivacyPreservingStressDetection2023,
+  title = {Privacy-{{Preserving Stress Detection Using Smartwatch Health Data}}},
+  booktitle = {4. {{Interdisciplinary Privacy}} \& {{Security}} at {{Large Workshop}}, {{INFORMATIK}} 2023},
   author = {Lange, Lucas and Degenkolb, Borislav and Rahm, Erhard},
   year = {2023},
-  month = sep,
-  booktitle = {4. Interdisciplinary Privacy & Security at Large Workshop, INFORMATIK 2023},
+  month = sep,,
+  publisher = {{Gesellschaft f{\"u}r Informatik e.V.}},
+  doi = {10.18420/inf2023_66},
+  url = {https://dl.gi.de/handle/20.500.12116/43188},
+  urldate = {2023-12-14},
   abstract = {We present the first privacy-preserving approach for stress detection from wrist-worn wearables based on the Time-Series Classification Transformer (TSCT) architecture and incorporating Differential Privacy (DP) to ensure provable privacy guarantees. The non-private baseline results prove the TSCT to be an effective model for the given task. Our DP experiments then show that the private models suffer from reduced utility but can still be used for reliable stress detection depending on the application. Our proposed approach has potential applications in smart health, where it can be used to monitor smartwatch users' stress levels without compromising their privacy and provide timely interventions or suggestions to prevent adverse health outcomes. Another primary contribution is our evaluation, which studies and shows negative effects of DP regarding model training. The results of this work provide perspectives for future research and applications whenever the fields of stress detection and data privacy intervene.},
-  code = {https://github.com/BDegenkolb/Privacy-Preserving-Stress-Transformer},
+  code = {https://github.com/luckyos-code/Privacy-Preserving-Stress-Transformer},
+  isbn = {978-3-88579-731-9},
+  langid = {english},
+  pdf = {https://doi.org/10.18420/inf2023\_66},
+  bibtexshow={true},
   selected={true},
+}
+
+@misc{twitterplaceholder,
+  title = {Privacy in {{Practice}}: {{Private COVID-19 Detection}} in {{X-Ray Images}} ({{Extended Version}})},
+  booktitle = {{{SKILL}} 2023},
+  author = {Vogel, Felix and Lange, Lucas},
+  year = {2023},
+  month = sep,
+  publisher = {{Gesellschaft f{\"u}r Informatik e.V.}},
+  abstract = {Sentiment analysis is a crucial tool to evaluate customer opinion on products and services. However, analyzing social media data raises concerns about privacy violations since users may share sensitive information in their posts. In this work, we propose a privacy-preserving approach for sentiment analysis on Twitter data using Differential Privacy (DP). We first implement a non-private baseline model and assess the impact of various settings and preprocessing methods. We then extend this approach with DP under multiple privacy parameters ε = {0.1, 1, 10} and finally evaluate the usability of the resulting private models. Our results show that DP models can maintain high accuracy for the studied task. We contribute to the development of privacy-preserving machine learning for customer opinion analysis and provide insights into trade-offs between privacy and utility. The proposed approach helps protect sensitive information while still allowing for valuable insights to be gained from social media data.},
+  code = {https://github.com/felix2246/dp-sent-analysis-twitter},
+  pdf = {https://dbs.uni-leipzig.de/file/SKILL2023_private_twitter_sentiment-6.pdf},
+  bibtexshow={true},
+  selected={false},
 }
 
 @inproceedings{langePrivacyPracticePrivate2023a,
@@ -29,11 +95,10 @@
   pdf = {https://dbs.uni-leipzig.de/file/camera\_secrypt\_mia\_covid.pdf},
   keywords = {COVID-19 Detection,Differential Privacy,Differentially-Private Stochastic Gradient Descent,Membership Inference Attack,Practical Privacy,Privacy-Preserving Machine Learning},
   bibtexshow={true},
-  selected={true},
+  selected={false},
 }
 
-
-@misc{langePrivacyPracticePrivate2023,
+@misc{langePrivacyPracticePrivate2022,
   title = {Privacy in {{Practice}}: {{Private COVID-19 Detection}} in {{X-Ray Images}} ({{Extended Version}})},
   author = {Lange, Lucas and Schneider, Maja and Christen, Peter and Rahm, Erhard},
   year = {2022},
@@ -51,8 +116,9 @@
   pdf = {https://arxiv.org/pdf/2211.11434.pdf},
   keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Cryptography and Security,Computer Science - Machine Learning},
   bibtexshow={true},
-  selected={true},
+  selected={false},
 }
+
 
 @inproceedings{staudteSentArgHybridDoc2Vec2020,
   title = {{{SentArg}}: {{A Hybrid Doc2Vec}}/{{DPH Model}} with {{Sentiment Analysis Refinement}}},

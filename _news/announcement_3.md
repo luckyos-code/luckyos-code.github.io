@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-05-26 14:23:00+0100
+date: 2024-01-24 14:23:00+0100
 inline: true
 ---
 
-Paper "Privacy-Preserving Stress Detection Using Smartwatch Health Data" accepted at "4. Privacy & Security at Large Workshop, INFORMATIK 2023" 🎉
+Preprint "Generating Synthetic Health Sensor Data for Privacy-Preserving Wearable Stress Detection" now available on arXiv 🎉 
