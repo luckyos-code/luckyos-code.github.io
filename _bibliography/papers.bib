@@ -1,6 +1,28 @@
 %% add: code, pdf, bitex_show, selected
 %% remove: file
 
+@inproceedings{stockPropertyInferenceRegression2024,
+  title = {Property {{Inference}} as a {{Regression Problem}}: {{Attacks}} and {{Defense}}},
+  shorttitle = {Property {{Inference}} as a {{Regression Problem}}},
+  booktitle = {21th {{International Conference}} on {{Security}} and {{Cryptography}} ({{SECRYPT}} 2024)},
+  author = {Stock, Joshua and Lange, Lucas and Rahm, Erhard and Federrath, Hannes},
+  year = {2024},
+  month = jul,
+  pages = {876--885},
+  publisher = {SciTePress},
+  doi = {10.5220/0012863800003767},
+  url = {https://www.scitepress.org/PublicationsDetail.aspx?ID=VOY5GiNn9B4=&t=1},
+  urldate = {2024-08-06},
+  abstract = {In contrast to privacy attacks focussing on individuals in a training dataset (e.g., membership inference), Property Inference Attacks (PIAs) are aimed at extracting population-level properties from trained Machine Learning (ML) models. These sensitive properties are often based on ratios, such as the ratio of male to female records in a dataset. If a company has trained an ML model on customer data, a PIA could for example reveal the demographics of their customer base to a competitor, compromising a potential trade secret. For ratio-based properties, inferring over a continuous range using regression is more natural than classification. We therefore extend previous white-box and black-box attacks by modelling property inference as a regression problem. For the black-box attack we further reduce prior assumptions by using an arbitrary attack dataset, independent from a target model's training data. We conduct experiments on three datasets for both white-box and black-box scenarios, indicating promising adversary performances in each scenario with a test R{$^2$} between 0.6 and 0.86. We then present a new defense mechanism based on adversarial training that successfully inhibits our black-box attacks. This mechanism proves to be effective in reducing the adversary's R{$^2$} from 0.63 to 0.07 and induces practically no utility loss, with the accuracy of target models dropping by no more than 0.2 percentage points.},
+  code = {https://github.com/joshua-stock/bb-pia},
+  isbn = {978-989-758-709-2},
+  pdf = {https://dbs.uni-leipzig.de/files/research/publications/proc\_paper.pdf},
+  bibtexshow={true},
+  selected={true},
+}
+
+
+
 @article{langeGeneratingSyntheticHealth2024a,
   title = {Generating {{Synthetic Health Sensor Data}} for {{Privacy-Preserving Wearable Stress Detection}}},
   author = {Lange, Lucas and Wenzlitschke, Nils and Rahm, Erhard},
@@ -42,7 +64,7 @@
   langid = {english},
   pdf = {https://dl.gi.de/server/api/core/bitstreams/23387493-d22e-42e2-98f1-45d297d94628/content},
   bibtexshow={true},
-  selected={true},
+  selected={false},
 }
 
 @inproceedings{twitterplaceholder,

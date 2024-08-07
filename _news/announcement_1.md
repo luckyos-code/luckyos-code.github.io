@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-01-01 09:11:00+0100
+date: 2023-08-16 14:23:00+0100
 inline: true
 ---
 
-Different thesis topics for B.Sc. and M.Sc. available on the database group <a href="https://dbs.uni-leipzig.de/en/study/theses/aktuelle_themen" target="_blank">website</a>.
+Preprint "<a href="http://arxiv.org/abs/2308.08310" target="_blank">Privacy at Risk: Exploiting Similarities in Health Data for Identity Inference</a>" now available on arXiv 🎉 
