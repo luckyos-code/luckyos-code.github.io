@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024-08-07 14:23:00+0100
+date: 2024-09-20 14:23:00+0100
 inline: true
 ---
 
-Paper "<a href="https://doi.org/10.5220/0012863800003767" target="_blank">Property Inference as a Regression Problem: Attacks and Defense</a>" now published at SECRYPT 2024 🎉 
+Preprint "<a href="10.48550/arXiv.2308.08310" target="_blank">Slice it up: Unmasking User Identities in Smartwatch Health Data</a>" now available 📝 
