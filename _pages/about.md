@@ -25,4 +25,4 @@ I am a computer scientist passionate about artificial intelligence, machine lear
 
 On this website, I want to summarize my works and experiences. Also see my database group <a href="https://dbs.uni-leipzig.de/en/person/lucas_lange" target="_blank">page</a>.
 
-For inqueries or questions please contact me using the given addresses or one of the linked platforms at the top.
+For inqueries please contact me using the given addresses or one of the linked platforms at the top.
