@@ -9,7 +9,7 @@ subtitle: >
 profile:
   align: right
   image: lucas_lange.jpg
-  address: <p>lange@informatik.uni-leipzig.de</p>
+  address: <p>lange [at] informatik.uni-leipzig.de</p>
     <p>Room P-416, Paulinum</p>
     <p>Augustusplatz 10</p>
     <p>04109 Leipzig, Germany</p>
